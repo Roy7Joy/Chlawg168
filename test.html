@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rong Fragrance</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            font-size: 18px;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-blend-mode: darken;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            text-decoration: underline;
+            font-size: 50px;
+            margin: 20px 0;
+            color:white;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .nav-links a {
+            color: #FFD700;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 5px 10px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: white;
+            background-color: rgba(255, 215, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 25px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 8px;
+            padding: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+        }
+
+        .logo-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.2);
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .logo-item img {
+            width: 100%;
+            height: auto;
+            max-height: 120px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .logo-item span {
+            color: #FFD700;
+            font-weight: bold;
+            text-align: center;
+        }
+.logo-grid-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rong Fragrance</h1>
+    </header>
+
+    <nav class="nav-links">
+        <a href="dior.html">Christian Dior</a>&nbsp;|&nbsp;
+        <a href="versace.html">Versace</a>&nbsp;|&nbsp;
+        <a href="jpg.html">Jean Paul Gaultier</a>&nbsp;|&nbsp;
+        <a href="lv.html">Louis Vuitton</a>&nbsp;|&nbsp;
+        <a href="azzaro.html">Azzaro</a>&nbsp;|&nbsp;
+        <a href="armaf.html">Armaf</a>&nbsp;|&nbsp;
+        <a href="prada.html">Prada</a>&nbsp;|&nbsp;
+        <a href="coach.html">Coach</a>&nbsp;|&nbsp;
+        <a href="hermes.html">Hermes</a>&nbsp;|&nbsp;
+        <a href="creed.html">Creed</a>&nbsp;|&nbsp;
+        <a href="ysl.html">Yve Saint Laurent</a>&nbsp;|&nbsp;
+        <a href="gucci.html">Gucci</a>&nbsp;|&nbsp;
+        <a href="armani.html">Armani</a>&nbsp;|&nbsp;
+        <a href="valentino.html">Valentino</a>&nbsp;|&nbsp;
+        <a href="chanel.html">Chanel</a>&nbsp;|&nbsp;
+        <a href="ck.html">Calvin Klein</a>&nbsp;|&nbsp;
+    </nav>
+
+    <div class="logo-grid">
+        <a href="dior.html" class="logo-item">
+            <img src="dior.jpg" alt="Dior">
+            <span>Dior</span>
+        </a>
+        <a href="versace.html" class="logo-item">
+            <img src="versace.jpg" alt="Versace">
+            <span>Versace</span>
+        </a>
+        <a href="jpg.html" class="logo-item">
+            <img src="jpg.jpg" alt="Jean Paul Gaultier">
+            <span>JPG</span>
+        </a>
+        <a href="lv.html" class="logo-item">
+            <img src="lv.jpg" alt="Louis Vuitton">
+            <span>LV</span>
+        </a>
+        <a href="azzaro.html" class="logo-item">
+            <img src="azzaro.jpg" alt="Azzaro">
+            <span>Azzaro</span>
+        </a>
+        <a href="armaf.html" class="logo-item">
+            <img src="armaf.jpg" alt="Armaf">
+            <span>Armaf</span>
+        </a>
+        <a href="prada.html" class="logo-item">
+            <img src="prada.jpg" alt="Prada">
+            <span>Prada</span>
+        </a>
+        <a href="coach.html" class="logo-item">
+            <img src="coach.jpg" alt="Coach">
+            <span>Coach</span>
+        </a>
+        <a href="hermes.html" class="logo-item">
+            <img src="hermes.jpg" alt="Hermes">
+            <span>Hermes</span>
+        </a>
+        <a href="creed.html" class="logo-item">
+            <img src="creed.jpg" alt="Creed">
+            <span>Creed</span>
+        </a>
+        <a href="ysl.html" class="logo-item">
+            <img src="ysl.jpg" alt="YSL">
+            <span>YSL</span>
+        </a>
+        <a href="gucci.html" class="logo-item">
+            <img src="gucci.jpg" alt="Gucci">
+            <span>Gucci</span>
+        </a>
+        <a href="armani.html" class="logo-item">
+            <img src="ga.jpg" alt="Armani">
+            <span>Armani</span>
+        </a>
+        <a href="valentino.html" class="logo-item">
+            <img src="valentino.jpg" alt="Valentino">
+            <span>Valentino</span>
+        </a>
+        <a href="chanel.html" class="logo-item">
+            <img src="chanel.jpg" alt="Chanel">
+            <span>Chanel</span>
+        </a>
+        <a href="ck.html" class="logo-item">
+            <img src="calvin.jpg" alt="Calvin Klein">
+            <span>Calvin Klein</span>
+        </a>
+    </div>
+</body>
+</html>
